@@ -1,6 +1,6 @@
-# Python Notebook Project
+# AI-Powered Library Upgrade Analyzer
 
-This repository contains a Jupyter notebook for data analysis and experimentation.
+This tool analyzes GitHub Pull Requests to automatically extract Maven library dependency upgrades from POM file changes. It uses a local Ollama LLM to intelligently parse PR diffs and generate structured JSON output showing which libraries were updated, their old and new versions, and which PR they came from. Perfect for tracking dependency changes across multiple PRs in Java projects.
 
 ## Setup Instructions
 
